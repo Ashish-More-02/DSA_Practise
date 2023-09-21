@@ -9,7 +9,8 @@ int main (){
     
 
     // creating a vector array 
-    vector<int> myArray;
+    vector<int> myArray{1,23,4,5,4};
+    // vector <int> myArray ;
 
 
     // capacity = the amount of meomory alocated to the array , whenever we store any element it doubles its capacity 
@@ -25,7 +26,7 @@ int main (){
 
     // myArray.push_back(normalArray[3]);
 
-    for (int i=0;i<8;i++){
+    for (int i=1;i<=8;i++){
         myArray.push_back(normalArray[i]);
     }
 
@@ -52,9 +53,9 @@ int main (){
     // printing the elements before poping 
 
     // this is a range based for loop , or a for_each loop , where it takes each element form the array and the perform some operations on it
-    for (int i :myArray){
-        cout <<i<<" ";
-    }
+    // for (int i :myArray){
+    //     cout <<i<<" ";
+    // }
 
 
     
